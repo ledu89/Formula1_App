@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.home-page {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-page img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.link:hover {
+  color: #9c9696;
+}
+
+.page-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/assets/f1HomePage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100% - 20px);
+  overflow-y: auto;
+  opacity: 0.9;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+table caption {
+  background-color: #9c9696;
+  text-align: left;
+  padding: 10px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+thead {
+  position: sticky;
+  top: -1px;
+}
+
+th {
+  background-color: #9c9696;
+  border: 1px solid #000;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #222;
+}
+
+.share-icon {
+  color: #fff;
+}
+
+.flag-icon {
+  margin-right: 5px;
+}
+.flag-az {
+  height: 17px;
+  width: 26px;
+  margin-right: 5px;
+}
+
+.aditional-info-label {
+  margin-right: 20px;
+}
+
+.default-background {
+  background-color: darkgray;
+}
+
+.position-1 {
+  background-color: yellow;
+}
+
+.position-2 {
+  background-color: grey;
+}
+
+.position-3 {
+  background-color: orange;
+}
+
+.position-4 {
+  background-color: lightgreen;
+}
+
+.position-5 {
+  background-color: lightblue;
+}
+
+.position-6 {
+  background-color: rgb(222, 222, 154);
+}
+
+.position-7 {
+  background-color: lightsalmon;
+}
+
+.position-8 {
+  background-color: lightcyan;
+}
+
+.position-9 {
+  background-color: lightskyblue;
+}
+
+.position-10 {
+  background-color: lightcoral;
+}
+
+.details-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.driver-team-details {
+  width: 20vw;
+  background-color: #222;
+  color: #fff;
+  min-height: 100vh;
+  margin-top: 40px;
+}
+
+.details-info {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.driver-team-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.driver-team-avatar {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.driver-team-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.aditional-info {
+  display: flex;
+}
+
+.aditional-info-left {
+  margin-right: 20px;
+}
+
+.details-table-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ccc;
+  margin-top: 40px;
+}
+
+.details-race {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.year-selector {
+  background-color: #222;
+  padding: 22px;
+  text-align: center;
+}
+
+.year-selector label {
+  color: #fff;
+  font-size: 25px;
+}
+
+.year-selector select {
+  margin-left: 30px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 0 20px red;
+  color: #fff;
+}
+
+.year-selector select::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  border-radius: 15px;
+  box-shadow: 0 0 20px red;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.year-selector select::before {
+  opacity: 1;
+}
+
+.top-navigation-container {
+  margin-top: 0;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  right: 0;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-navigation-link .ant-breadcrumb-separator {
+  display: none;
+}
+
+.top-navigation-link .ant-breadcrumb-link:not(.ant-breadcrumb-link-active) {
+  margin-right: 10px;
+}
+
+.breadcrumb-link {
+  color: #fff !important;
+  background: transparent;
+}
+
+.breadcrumb-link .anticon-home {
+  margin-right: 5px;
+}
+
+.breadcrumb-link .active {
+  background: red;
+  color: #fff;
+}
+
+.current {
+  color: #202020;
+  cursor: default;
+}
+
+.top-navigation-link {
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1083px) {
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  .home-page img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .year-selector {
+    padding: 14px;
+  }
+
+  .year-selector label {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+  .year-selector select {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  .page-layout {
+    background-color: #222;
+  }
+
+  .details-container {
+    flex-direction: column;
+  }
+
+  .driver-team-details {
+    width: 100vw;
+    min-height: 20vh;
+  }
+
+  .details-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .driver-team-info {
+    margin-right: 30px;
+  }
+
+  .driver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.winner-details {
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+  }
+
+  .year-selector {
+    margin-top: 50px;
+  }
+
+  .home-page img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .page-layout {
+    background-color: #222;
+  }
+
+  .main-title {
+    font-size: 25px;
+  }
+
+  .table-wrapper {
+    align-items: center;
+  }
+  .details-container {
+    overflow: scroll;
+  }
+
+  .aditional-info {
+    margin-right: 160px;
+  }
+
+  .details-table-container {
+    margin-top: 0;
+  }
+}

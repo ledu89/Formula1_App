@@ -1,0 +1,7 @@
+.driver-aditional-info p + p {
+  margin-top: 5px;
+}
+
+.driver-aditional-info p svg {
+  vertical-align: middle;
+}

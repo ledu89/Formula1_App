@@ -1,0 +1,11 @@
+.team-aditional-info p+p {
+  margin-top: 5px;
+}
+
+.team-aditional-info p svg {
+  vertical-align: middle;
+}
+
+.team-grand-prix-flag {
+  margin-right: 5px;
+}
