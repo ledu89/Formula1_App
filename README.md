@@ -1,3 +1,4 @@
+![formula_1--home](https://github.com/ledu89/Formula1_App/assets/102481716/4a9f19be-6445-4d8d-942c-8d798bcbac71)
 ![formula-teams-details](https://github.com/ledu89/Formula1_App/assets/102481716/be89da36-033b-4f4a-97b4-454ffe976079)
 ![formula-races](https://github.com/ledu89/Formula1_App/assets/102481716/4f577fcc-5b22-4be5-9011-84c344851df6)
 ![formula_teams](https://github.com/ledu89/Formula1_App/assets/102481716/d2fe8410-ce03-4b6b-b9d2-70323ba44350)
