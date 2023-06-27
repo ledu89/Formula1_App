@@ -1,3 +1,11 @@
+![formula-teams-details](https://github.com/ledu89/Formula1_App/assets/102481716/be89da36-033b-4f4a-97b4-454ffe976079)
+![formula-races](https://github.com/ledu89/Formula1_App/assets/102481716/4f577fcc-5b22-4be5-9011-84c344851df6)
+![formula_teams](https://github.com/ledu89/Formula1_App/assets/102481716/d2fe8410-ce03-4b6b-b9d2-70323ba44350)
+![formula_races-id](https://github.com/ledu89/Formula1_App/assets/102481716/adb3db4d-0678-4ce8-93cd-7cc40142a4ac)
+![formula_races](https://github.com/ledu89/Formula1_App/assets/102481716/f7707747-8ff9-4ab6-93b9-e9808f0a2592)
+![Uploading formula_drivers.png…]()
+![formula_driver-details](https://github.com/ledu89/Formula1_App/assets/102481716/1fb94460-d375-40c7-a14a-7b690a861b92)
+![Uploading formula homepage.png…]()
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
